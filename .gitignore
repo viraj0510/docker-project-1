@@ -24,3 +24,19 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# MySQL persistent database files
+mysql-data/
+
+# Environment variables
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Docker
+*.log
